@@ -36,15 +36,26 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "stencil/rule-name": 2
+        "stencil/no-global-html-attribute-prop-names": "error"
+    }
+}
+```
+
+Or alternatively extend the Stencil recommended ruleset:
+
+```
+{
+    "extends": {
+        "plugin:stencil/recommended"
     }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
+- `no-global-html-attribute-prop-names`
 
+This rule catches Stencil Prop names that share names of [Global HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes).
 
 
 
