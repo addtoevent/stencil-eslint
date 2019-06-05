@@ -65,3 +65,7 @@ When submitting new rules please:
 - Follow ESLint Rule guidelines (the [eslint-rule yeoman generator](https://github.com/eslint/generator-eslint) is good for this)
 
 All contributions welcome.
+
+## Licence 
+
+- MIT
