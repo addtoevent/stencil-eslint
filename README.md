@@ -1,6 +1,6 @@
 # eslint-plugin-stencil
 
-ESLint rules specific to Stencil JS projects created by the [AddToEvent](https://www.addtoevent.co.uk/) Team. 
+ESLint rules specific to Stencil JS projects created by the [Add To Event](https://www.addtoevent.co.uk/) Team. 
 
 ## Installation
 
