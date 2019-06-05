@@ -16,7 +16,9 @@ Next, install `eslint-plugin-stencil`:
 $ npm install eslint-plugin-stencil --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-stencil` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-stencil** globally.
+
+**Note:** Assumes you are also using [@typescript-eslint](https://github.com/typescript-eslint/typescript-eslint).
 
 ## Usage
 
