@@ -1,6 +1,6 @@
 # eslint-plugin-stencil
 
-ESLint rules specific to Stencil JS projects.
+ESLint rules specific to Stencil JS projects created by the [AddToEvent](https://www.addtoevent.co.uk/) Team. 
 
 ## Installation
 
@@ -45,9 +45,9 @@ Or alternatively extend the Stencil recommended ruleset:
 
 ```
 {
-    "extends": {
+    "extends": [
         "plugin:stencil/recommended"
-    }
+    ]
 }
 ```
 
@@ -57,6 +57,11 @@ Or alternatively extend the Stencil recommended ruleset:
 
 This rule catches Stencil Prop names that share names of [Global HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes).
 
+## Contributing
 
+When submitting new rules please:
+- Describe your new rule in the README.md
+- Provide a suite of unit tests for your rule
+- Follow ESLint Rule guidelines (the [eslint-rule yeoman generator](https://github.com/eslint/generator-eslint) is good for this)
 
-
+All contributions welcome.
