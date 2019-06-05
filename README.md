@@ -68,4 +68,4 @@ All contributions welcome.
 
 ## Licence 
 
-- MIT
+- [MIT](https://github.com/addtoevent/stencil-eslint/blob/master/LICENSE.md)
